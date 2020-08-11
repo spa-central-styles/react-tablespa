@@ -21,7 +21,8 @@ const Table = () => {
     mode: 'checkbox',
     clickToSelect: true,
     onSelect:  handleOnSelect,
-    onSelectAll: handleOnSelectAll
+    onSelectAll: handleOnSelectAll,
+    classes: 'row-selected'
   };
 
   const handleReviewClick = (e) => {

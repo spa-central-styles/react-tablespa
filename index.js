@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import Table from './Table';
-import './style.css';
+import 'spa-central-styles-free';
 
 class App extends Component {
   constructor() {
