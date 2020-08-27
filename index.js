@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import Table from './Table';
+import TablePerPrototype from './TablePerPrototype';
 import 'spa-central-styles-free';
 
 class App extends Component {
@@ -15,10 +16,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Hello name={this.state.name} />
+       
        
 
-         <Table/>
+         <TablePerPrototype/>
       </div>
     );
   }
